@@ -1,0 +1,15 @@
+;; data/culture-tx.edn — DataScript tx-data derived from src/culture/facts.cljc
+;; `culture.facts/catalog` (ADR-2607171400 addendum 2, Wave 1 country-level).
+;; Same shape across every cloud-itonami-iso3166-* sibling. Do not hand-edit;
+;; regenerate from the catalog.
+
+[
+#:culture{:url "https://en.wikipedia.org/wiki/Ugali", :id "rwa.dish.ugali", :kind :dish, :name-local "Ubugali", :country "RWA", :retrieved-at "2026-07-17", :summary "Firm cornmeal dough eaten with beans, vegetables and meat, made in several African countries including Rwanda, where it is called ubugali.", :name "Ugali", :url-provenance :wikipedia-en}
+#:culture{:id "rwa.dish.isombe", :name "Isombe", :country "RWA", :kind :dish, :summary "Vegetable stew dish from Rwanda made from cassava leaves cooked with ground peanuts and vegetables.", :url "https://en.wikipedia.org/wiki/Isombe", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "rwa.dish.brochettes", :name "Brochettes", :country "RWA", :kind :dish, :summary "Grilled meat on a skewer, usually goat or beef, a popular lunch dish in Rwandan cuisine.", :url "https://en.wikipedia.org/wiki/Rwandan_cuisine", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "rwa.beverage.urwagwa", :name "Urwagwa", :country "RWA", :kind :beverage, :summary "Banana beer made from fermented mashed bananas, known as urwagwa in Rwanda and Burundi and sometimes consumed during rituals and ceremonies.", :url "https://en.wikipedia.org/wiki/Banana_beer", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "rwa.craft.agaseke", :name "Agaseke", :country "RWA", :kind :craft, :summary "Traditional Rwandese woven basket.", :url "https://en.wikipedia.org/wiki/Agaseke", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "rwa.craft.imigongo", :name "Imigongo", :country "RWA", :kind :craft, :summary "Art form popular in Rwanda, traditionally made by women using cow dung.", :url "https://en.wikipedia.org/wiki/Imigongo", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "rwa.festival.kwita-izina", :name "Kwita Izina", :country "RWA", :kind :festival, :summary "Rwandan ceremony of giving a name to a newborn baby gorilla, mirroring traditional Rwandan naming customs for children and serving conservation purposes in Volcanoes National Park.", :url "https://en.wikipedia.org/wiki/Kwita_Izina", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "rwa.heritage.volcanoes-national-park", :name "Volcanoes National Park", :country "RWA", :kind :heritage, :summary "National park in northwestern Rwanda covering 160 sq km of rainforest, encompassing five of the eight volcanoes in the Virunga Mountains.", :url "https://en.wikipedia.org/wiki/Volcanoes_National_Park", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+]
