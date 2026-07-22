@@ -11,13 +11,7 @@
           :rep-provenance "https://www.umucyo.gov.rw/"
           :corporate-number-owner-authority "RDB / RRA"
           :corporate-number-legal-basis "Company registration / TIN"
-          :corporate-number-provenance "https://rdb.rw/"}
-   "USA" {:name "United States" :owner-authority "GSA/SAM.gov" :legal-basis "FAR" :national-spec "SAM.gov" :provenance "https://sam.gov/"
-          :required-evidence ["EIN record" "SAM.gov registration record" "State business registration record" "SAM UEI verification record"]}
-   "KEN" {:name "Kenya" :owner-authority "PPRA" :legal-basis "PPADA" :national-spec "IFMIS" :provenance "https://www.ppra.go.ke/"
-          :required-evidence ["KRA PIN" "IFMIS registration" "BRS extract" "Authorized-representative record"]}
-   "UGA" {:name "Uganda" :owner-authority "PPDA" :legal-basis "PPDA Act" :national-spec "e-GP" :provenance "https://www.ppda.go.ug/"
-          :required-evidence ["URSB record" "e-GP registration" "TIN record" "Authorized-representative record"]}})
+          :corporate-number-provenance "https://rdb.rw/"}})
 
 (defn spec-basis [iso3] (get catalog iso3))
 (defn coverage
