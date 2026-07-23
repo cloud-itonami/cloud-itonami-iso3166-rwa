@@ -1,0 +1,35 @@
+;; data/datascript-tx.edn — DataScript tx-data derived from src/statute/facts.cljc
+;; `statute.facts/catalog` (ADR-2607141700 Wave 0). Same shape as sibling files.
+
+[#:statute{:id "rwa.companies-act-007-2021"
+           :title "Law N° 007/2021 of 05/02/2021 governing companies"
+           :jurisdiction "RWA"
+           :kind :law
+           :law-number "Law N° 007/2021 of 05/02/2021"
+           :url "https://businessprocedures.rdb.rw/media/Official_Gazette_N___04_ter_of_08-02-2021_Companies_Law_2021.pdf"
+           :url-provenance :official-rdb-rw
+           :enacted-date "2021-02-05"
+           :last-revised-date "2023-03-30"
+           :retrieved-at "2026-07-23"
+           :topic [:corporate-governance :incorporation]}
+ #:statute{:id "rwa.data-protection-law-058-2021"
+           :title "Law N° 058/2021 of 13/10/2021 relating to the protection of personal data and privacy"
+           :jurisdiction "RWA"
+           :kind :law
+           :law-number "Law N° 058/2021 of 13/10/2021"
+           :url "https://risa.gov.rw/fileadmin/user_upload/RISA/Publications/2.Laws/Law_relating_to_the_protection_of_personal_data_and_privacy.pdf"
+           :url-provenance :official-risa-gov-rw
+           :enacted-date "2021-10-13"
+           :retrieved-at "2026-07-23"
+           :topic [:data-protection :privacy]}
+ #:statute{:id "rwa.labour-law-66-2018"
+           :title "Law N° 66/2018 of 30/08/2018 regulating labour in Rwanda"
+           :jurisdiction "RWA"
+           :kind :law
+           :law-number "Law N° 66/2018 of 30/08/2018"
+           :url "https://www.mifotra.gov.rw/fileadmin/user_upload/Mifotra/Publication/3.LAWS/New_Labour_Law_2018.pdf"
+           :url-provenance :official-mifotra-gov-rw
+           :enacted-date "2018-08-30"
+           :last-revised-date "2023-05-18"
+           :retrieved-at "2026-07-23"
+           :topic [:labor :employment]}]
