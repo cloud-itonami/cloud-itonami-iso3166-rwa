@@ -10,14 +10,14 @@ AGPL-3.0-or-later.
 
 ## Statute catalog
 
-Alongside the market-entry catalog (`src/marketentry/facts.cljc`, scoped
+Alongside the market-entry catalog (`src/marketentry/facts.cljk`, scoped
 narrowly to RPPA/Umucyo public-procurement market entry), this repo
 carries a **general-law compliance catalog** (ADR-2607141700,
 `cloud-itonami-compliance-fact-federation`) covering the statutes a
 company operating in Rwanda must generally track for compliance beyond
 procurement:
 
-- `src/statute/facts.cljc` — the catalog, source of truth. Three
+- `src/statute/facts.cljk` — the catalog, source of truth. Three
   entries, each independently WebFetch/pdftotext-verified directly
   against the issuing ministry/agency's own `.gov.rw` (or RDB-Group)
   hosting, not a secondary summary: Law N° 007/2021 of 05/02/2021
@@ -43,7 +43,7 @@ Alongside the market-entry / statute catalogs, this repo carries a
 `com-junkawasaki/root`) — national dishes, protected products, beverages,
 crafts, festivals and heritage sites for Rwanda:
 
-- `src/culture/facts.cljc` — the catalog, source of truth (keyed by
+- `src/culture/facts.cljk` — the catalog, source of truth (keyed by
   uppercase ISO3, mirroring `statute.facts`).
 - `schema/culture.edn` — DataScript schema.
 - `data/culture-tx.edn` — derived DataScript tx-data (regenerated from

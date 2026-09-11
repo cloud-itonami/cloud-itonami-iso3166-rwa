@@ -34,7 +34,7 @@
   public-procurement preference provisions favoring domestic suppliers
   on qualifying tenders
 - ongoing regulatory-change monitoring subscription, grounded in a
-  general-law compliance catalog (`src/statute/facts.cljc`) covering the
+  general-law compliance catalog (`src/statute/facts.cljk`) covering the
   Companies Act (Law N° 007/2021), the data-protection and privacy law
   (Law N° 058/2021) and the labour law (Law N° 66/2018) — orthogonal to
   the procurement-only market-entry catalog above, each independently
